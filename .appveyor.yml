@@ -1,0 +1,5 @@
+configuration: Release
+cache:
+  - packages -> source/packages.config
+before_build:
+  - cmd: nuget restore source/packages.config -PackagesDirectory source/packages/
