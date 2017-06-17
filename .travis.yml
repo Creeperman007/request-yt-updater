@@ -1,2 +1,2 @@
 language: csharp
-solution: source/request-yt.sln
+solution: source/app-updater.sln
